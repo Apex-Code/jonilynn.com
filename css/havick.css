@@ -1,0 +1,283 @@
+/*
+,,             ,,   ,        ,,                 ,,                       ,,   
+||           ' ||  ||        ||                 ||      _   ;     '      ||   
+||/|, \\ \\ \\ || =||=       ||/|, '\\/\\       ||/\\  < \, \\/\ \\  _-_ ||/\ 
+|| || || || || ||  ||        || ||  || ;'       || ||  /-|| || | || ||   ||_< 
+|| |' || || || ||  ||        || |'  ||/         || || (( || || | || ||   || | 
+\\/   \\/\\ \\ \\  \\,       \\/    |/          \\ |/  \/\\ \\/  \\ \\,/ \\,\ 
+                                   (              _/                          
+                                    -_-                                       
+*/
+
+
+
+body {
+
+
+color: black;
+background: black;}
+
+footer {
+  padding: 15px;
+    background: #facac6;
+}
+
+
+
+
+
+
+.land{
+    background:url('../img/land.jpg')no-repeat center center fixed;
+   
+    height:100vh;
+}
+
+.middle{
+    background:url('../img/land.jpg')no-repeat center center fixed;
+   
+    height:100vh;
+}
+
+
+
+
+.main{
+   
+
+    border-style:solid;
+    border-color: #facac6;
+}
+
+.right{
+  
+     border-style:solid;
+    border-color: #facac6;
+    margin-bottom:2px;
+    
+    
+}
+
+p {
+  padding-top:25px;
+  font-family: 'Bellefair', serif;
+    font-size: 28px;
+}
+
+
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+80% { top: -200px; }
+}
+
+p.intro::first-letter{
+    font-family: "Princess Sofia";
+    font-size:200%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
+}
+
+.sig{
+    font-family: "Princess Sofia";
+    font-size: 56px;
+    text-align: right;
+    color:deeppink;
+}
+
+.about{
+    padding-top:50px;
+    font-family: "Dancing Script",cursive;
+    font-size:72px;
+    
+}
+
+.header{
+    font-family:"Bellefair",cursive;
+    font-size: 38px;
+    color: #380c35;
+    
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+    background: #facac6;
+    
+}
+
+.resize{
+
+height:450px;
+}
+
+a {
+    color:black;
+}
+
+.navbar-brand{
+    font-family: "Princess Sofia", cursive;
+    text-align: left;
+    font-size:32px;
+}
+
+.row{
+    height:65vh;
+    
+}
+.active{
+    background:#facac6;
+}
+
+ a:hover{
+background:#facac6;
+    color:black;
+     text-decoration: none;
+}
+
+ul.nav a:hover { 
+    color: black; 
+    background:#facac6;
+}
+
+.promo  {
+    font-family:"Bellefair", cursive;
+    font-size:45px;
+    padding-top:50px;
+    color:black;
+    text-align:left;
+    
+}
+
+ul.nav a:visited{
+    background:#facac6;
+    color:black;
+     text-decoration: none;
+    box-shadow: none;
+}
+
+ul.nav.social a, ul.nav.social a:active  {
+    color:#f196ff;
+    background:none;
+    
+} 
+ul.nav.social a:hover { 
+     
+    background:none;
+}
+ 
+.social .fa-facebook-square:hover {
+    color: #4060A5;
+}
+
+.social .fa-twitter-square:hover {
+    color: #00ABE3;
+}
+
+.social .fa-linkedin-square:hover {
+    color: #0075B5;
+}
+
+.promo a, .promo a:hover, .promo a:active  {
+    color:black;
+    background:none;
+}
+
+.faded{
+    
+  background: #facac6; 
+  background: -webkit-linear-gradient(left top, #facac6, #ffddf0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ffddf0, #facac6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ffddf0, #facac6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #facac6, #ffddf0); /* Standard syntax */
+}
+
+.faded-reverse{
+  background: #facac6; 
+  background: -webkit-linear-gradient(left top, #ffddf0, #facac6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #facac6,#ffddf0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #facac6, #ffddf0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right,#ffddf0, #facac6); /* Standard syntax */
+}
+
+
+.fadedtextreverse{
+    
+  background:  -webkit-linear-gradient(left top, #a36d9f, #facac6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fadedtext{
+  background: -webkit-linear-gradient(left top, #facac6, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-contain{
+    height:50vh;
+}
+
+/*havick hover*/
+
+
+.hover-div{
+    padding:0;
+    position:relative;
+    overflow:hidden;
+}
+.hover-div{
+    
+}
+.hover-div img{
+    height:100%;
+    width:100%;
+     transition:all ease-in-out .5s;
+}
+.view-details{
+     transition:all ease-in-out .5s;
+     top:45%;
+    left:32%;
+    position:absolute;
+    opacity:0;
+}
+.view-details h4{
+    transition:all ease-in-out .2s;
+    background-color:#3ad0fc;
+    padding:12px 24px;
+    color:#fff;
+}
+.view-details:hover h4{
+    transition:all ease-in-out .2s;
+    background-color:#0D1335;
+    padding:12px 24px;
+    color:#fff;
+}
+
+.hover-div:hover .view-details{
+    transition:all ease-in-out .5s;
+    opacity:1;
+    color:#000;
+    top:42%;
+}
+.hover-div:hover img{
+    transition:all ease-in-out .5s;
+    opacity:.6;
+    transform: scale(1.2);
+}
+
+   
